@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset=UTF-8">
+    <meta name="description" content="Drafting A Questionier On Mathematics">
+    <meta name="keywords" content="Drafting,questionier,mathematics">
+    <meta nane="author" content="John Acheampomg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+    <style>
+    body{
+    background-image:url("/storage/emulated/0/Download/maths.jpeg");
+    background-size:;
+    }
+    p1{background:linear-gradient(lightblue,lightgreen);
+    background-repeat:no-repeat;
+    color:green;
+    }
+    li{
+    margin:2px;
+    color:black;
+    }
+    p{
+    background:linear-gradient(to left,grey,white);
+    background-repeat:no-repeat;
+    border-radius:10px;
+    border-width:5px;
+    padding:10px;
+    border-color:gold;
+    }
+    b{
+    background:grey;
+    }
+    hr{
+   background:black;
+    }
+    h4{
+    background:grey;
+    border-radius:5px;
+    }
+    </style>
+</head>
+<body>
+  <h1>
+   <p1> Answer The Questions Below To Help Others
+  </h1>
+    <hr color="red">
+    <ol>
+   <li>
+    <form action="action_page.php"method="GET">
+    <p>How do you feel when you hear the word <b>"Mathematics"
+    </b>
+    </li>
+    
+    <ul>
+    <li>
+    <lable><b>Excited.</b></lable>
+    <input type="radio"name="title">
+    </li>
+    <li>
+    <lable><b>Annoyed.</b></lable>
+    <input type="radio">
+    </li>
+    </ul>
+    <li><p>Can you recall a time when you struggled with a maths problem or concept</li>
+    <ul>
+    <li>
+ <lable><b>Yes.</b></lable>
+    <input type="radio">
+    </li>
+    <li>
+    <lable><b>No.</b></lable>
+    <input type="radio">
+    </li>
+    </ul>
+    <li>
+    <p>Have you ever had a teacher or mentor who made mathematics more enjoyable for you
+    </li>
+    <ul>
+    <li>
+    <lable><b>Yes.</b></lable>
+    <input type="radio">
+    </li>
+    <li>
+    <lable><b>No.</b></lable>
+    <input type="radio">
+    </li>
+    </ul>
+  <lable for="iname">
+    <li>
+   <p>How do you think mathematics can be made more relatable and intresting 
+    to students of different ages and background
+    </li>
+    </lable>
+    <p><input type="text"id="iname"name="iname"placeholder="fill in"required>
+    <li>
+   <p> Do you think a person's attitude towards mathematics can change over time
+    </li>
+    <ul>
+    <li>
+    <lable><b>Yes.</b></lable>
+    <input type="radio">
+    </li>
+    <li>
+ <lable><b>No.</b></lable>
+    <input type="radio"name="title">
+    </li>
+    </ul>
+    <lable for ="pshare">
+    <li>
+    <li>
+   <p>Are there any real life application of mathematics that you find
+    facinating or surprising?
+    </li>
+    </lable>
+    <p><input type="text"id="pshare"name="pshare"placeholder="please share"required>
+    <div>
+    <input type="reset">
+    <div>
+    <input type="submit">
+    
+    </form>
+    <hr color="red">
+   <h4>Join kutu man for free</h4>
+    <form>
+    <label for="email"><b>email:</b></label>
+    <p><input type="email"id="email"name="email"placeholder="kutuman10@email.com"reguired>
+    <div>
+    <br>
+    <label for="pass"><b>Password</b></label>
+    <input type="Password"id="pass"name="pass"maxlenght="12"required>
+    <a href="http://facebook.com" target="Osj troublesson 2023 group">
+    <buttom>
+    <p>Login
+    </buttom>
+    </a>
+    </form>
+</body>
+</html>
